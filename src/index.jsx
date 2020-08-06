@@ -1,12 +1,11 @@
 import * as $ from 'jquery'
-//import Post from './Post.js'
-//import json from './assets/json.json'
-//import xml from './assets/data.xml'
-import csv from './assets/data.csv'
-import WebpackLogo from './assets/webpack-logo.png'
+import Post from '@models/Post'
+// import json from './assets/json.json'
+// import xml from './assets/data.xml'
+// import csv from './assets/data.csv'
+import WebpackLogo from '@/assets/webpack-logo.png'
 import React from 'react'
 import {render} from 'react-dom'
-
 import './babel'
 import './styles/styles.css'
 import './styles/less.less'
@@ -36,6 +35,7 @@ const App = () => (
 
 render(<App/>, document.getElementById('app'))
 
-//console.log('JSON:', json);
-//console.log('XML:', xml);
-//console.log('CSV:', csv);
+
+// console.log('JSON:', json)
+// console.log('XML:', xml)
+// console.log('CSV:', csv)
